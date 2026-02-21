@@ -153,6 +153,9 @@
     </footer>
 
     <!-- Load JavaScript -->
-    <script src="./app.js"></script>
+    <script>
+        // Load TMDB token from Netlify environment variable
+        window.TMDB_TOKEN = "%%TMDB_TOKEN%%";
+    </script>
 </body>
 </html>
